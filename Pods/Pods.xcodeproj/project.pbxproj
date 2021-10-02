@@ -1,0 +1,1090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B99AA9F9A77ABE4C22D94F5F21691FC /* ApphudRulesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58929F6636093E992B834B84C75D2B9A /* ApphudRulesManager.swift */; };
+		1166146DC47468AA6DBC510F18DE4727 /* ApphudInternal+Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6185D5FE1C590722B938EC1AE7DDA /* ApphudInternal+Purchase.swift */; };
+		152B06EE085DF67BE88901D6AE8AF1A5 /* ApphudNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47BDBB2A433462B77A42968CCF96F1D /* ApphudNavigationController.swift */; };
+		158AEF1595B36EA266CCB3A059FDE717 /* ApphudScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A76AE5000A8D9705F92F0A3F4AA88 /* ApphudScreenController.swift */; };
+		1615B85085B803020E5BF4EFEFE6F5BF /* ApphudUserPropertyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCFB5D4BB0EBA9EFA19B76DFABBB427 /* ApphudUserPropertyKey.swift */; };
+		1E19796F302D6612D31DF9AEB83EB7CE /* ApphudInternal+UserUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0463C82436F306FE3EE7EDF5308CC7D /* ApphudInternal+UserUpdate.swift */; };
+		2202F0263FF1BE957277FA30834B0D43 /* Pods-text_to_speechTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6447B4DCE88AD3C3B6BC3F9DA98B8AF0 /* Pods-text_to_speechTests-dummy.m */; };
+		247EF6FB8A31AA6439AF7AB93922FA26 /* Pods-text_to_speech-text_to_speechUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8516A5D164F89B9F3BE77CC1589EF6C8 /* Pods-text_to_speech-text_to_speechUITests-dummy.m */; };
+		296DEA498492A650DEDE24D8607C7269 /* ApphudInternal+Eligibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25CE3C6C26BD83FD6D6B4C027EF9AB5 /* ApphudInternal+Eligibility.swift */; };
+		34A4BBD376AB8253F08434E12D2F95A2 /* ApphudGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22CBECAD4B031F0853DCD9972973D2 /* ApphudGroup.swift */; };
+		3CD7165926219FDCAAD1E8577D62A145 /* ApphudScreenController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681188D4C4449CE17FCA107B7E3FD88C /* ApphudScreenController+Extensions.swift */; };
+		3CD8CCE5BD5EA5A590E906B18FF64B2B /* ApphudProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B553498D66186F6662BDE45906B481 /* ApphudProduct.swift */; };
+		56B703FC65D732DAE4C3E3898848E2A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55491B53CCB52C197797CCFE018C0BF6 /* Foundation.framework */; };
+		62976BC085E4AF3FB9D797E950988A83 /* ApphudSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C4D9D934AD831CC84E9AE41EAEEDC /* ApphudSubscription.swift */; };
+		66E4351CD8B715BC9D58714949D20F0C /* Pods-text_to_speech-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB2C0F9A978BFDBDA011F701EB5CB80 /* Pods-text_to_speech-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B7D0E0944532647B070AEE721748D2 /* ApphudSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEBBCC3F4E789E1FE322FD2DA6EDA8 /* ApphudSDK-dummy.m */; };
+		6EE38E8124C305016D419A476FEE9B89 /* ApphudPurchaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED90B5DC4B7AE2B0B9F3301212CE9395 /* ApphudPurchaseResult.swift */; };
+		7064E44F6DE7F45BE2C9422A34797B7A /* ApphudUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60474E43820514243552C0A6A860F38 /* ApphudUser.swift */; };
+		874A9B423AD577D8C304D1C53EF2CBBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55491B53CCB52C197797CCFE018C0BF6 /* Foundation.framework */; };
+		893E06A6125B08E5B10E7440072C7091 /* ApphudError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E236EB8376A66F0F380A069A69F023 /* ApphudError.swift */; };
+		8CBAA559B68E79A434FEE834BC4E1975 /* ApphudHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC341A2EB19C048825B74667D13E236 /* ApphudHttpClient.swift */; };
+		8CE4B47A0B682F1345FB075E9EAE4839 /* ApphudInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A48520EBCEFD614C3B8288BCD6589 /* ApphudInternal.swift */; };
+		8DCDFEBF72866C12F14DAD6E7DAE0380 /* ApphudUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5926DBBA833F63C5BA78B147BEDDC6 /* ApphudUtils.swift */; };
+		8E109E1462356F075022B1ED7452C2B6 /* Pods-text_to_speech-text_to_speechUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4362070C87FF01AFAC1A56DFFBD940D /* Pods-text_to_speech-text_to_speechUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EA183DE92E49570FDB0766AFBD7C496 /* ApphudKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FC801245536DD94D4662FE659CDF67 /* ApphudKeychain.swift */; };
+		901A395F6772B232B49775648EE186A2 /* Apphud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9081F363CDC3EE30E976BD9DA9FBB5D /* Apphud.swift */; };
+		945CB8E106EC51AE307D575B3AA66F9D /* ApphudInternal+Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E0AB075A486DC423D2467DE14778E /* ApphudInternal+Product.swift */; };
+		95F7B9831B60235214393EDFD5E0C077 /* ApphudLoggerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B34C76B9F0999C24336BCAAED99F51 /* ApphudLoggerService.swift */; };
+		9ADC1B24176ABF6C2B9AB0857102658C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55491B53CCB52C197797CCFE018C0BF6 /* Foundation.framework */; };
+		9B0E155FC7E9202D178A8F5DA4356C81 /* ApphudScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82EFF6192AEDEBF0A7639CF58B9F6C8 /* ApphudScreen.swift */; };
+		9C9E2EDF66E1881B332BF53DA19D9C99 /* ApphudUserProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F37E0E05437E2ED7B47841EA6B116 /* ApphudUserProperty.swift */; };
+		A05D15792B1F92EFD4654D7BBE2AD229 /* ApphudNonRenewingPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E0F20DF1DCEBE4BABE9237DB9BF2CC /* ApphudNonRenewingPurchase.swift */; };
+		A55D4337B6C8C23DFD412BC3053E6E40 /* ApphudInternal+Attribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8F6D22F34915341DE6BD199F1BFE9 /* ApphudInternal+Attribution.swift */; };
+		AB55B48F7AC99C2F3BFC71AA6E201F77 /* ApphudRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85627FFE42479F2B21A92EEB7D6202E3 /* ApphudRule.swift */; };
+		AC095B5F442113A1341D59E93E389E78 /* Pods-text_to_speech-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A941ADE8D0BBB379566F73D2AAABBA78 /* Pods-text_to_speech-dummy.m */; };
+		BCC5C68E83C2393A893D1BE37935A6BC /* ApphudReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6169AE375D7FEF08410CB5A0F09529 /* ApphudReceipt.swift */; };
+		BFA5587F35AD14B69614BEB3EEF87C7E /* ApphudExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68BA7830B6D56730408571D677A581 /* ApphudExtensions.swift */; };
+		C04A8D8CE4D5E9B3418965EE3A39F591 /* Pods-text_to_speechTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3B3C9E98739B1FBE9D95262C49B7EA /* Pods-text_to_speechTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0768F503B3B76F7BF30088A83CADB77 /* ApphudPaywall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B1873F7EB6FC8DA6136C30F2C541C8 /* ApphudPaywall.swift */; };
+		D6FCE05ECDA49D95CA189854A5AA5477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55491B53CCB52C197797CCFE018C0BF6 /* Foundation.framework */; };
+		E803845C44EEFCCCE6E4B1D629387995 /* ApphudStoreKitWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9522249F83AFB8FBD78FE599749F844 /* ApphudStoreKitWrapper.swift */; };
+		F0F9F39531689FB55EAF12B4BAB2DC9A /* ApphudSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F61EEBB10E03E754D5149CF31C0B9E /* ApphudSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F774CAC999E5B5E33A80E3E6BBF133C2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE38071E84A9951B95FEECBEA926D5C /* StoreKit.framework */; };
+		FA561E5588FE2B58DE11BF6CF4C569C3 /* ApphudScreenController+Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B96DE3E9D87BD5E6E9A8943786964 /* ApphudScreenController+Macros.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		125FE207E9CF729A34EA50D10EB00805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 343DC10EADFFDC93272E42B403A64D9F;
+			remoteInfo = ApphudSDK;
+		};
+		D6B432D13450E99541C58ECF90430661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACCC6943C4585621206FF1874260125D;
+			remoteInfo = "Pods-text_to_speech";
+		};
+		DAF31C5D6E197D51398760F65676F2DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 343DC10EADFFDC93272E42B403A64D9F;
+			remoteInfo = ApphudSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5C4D9D934AD831CC84E9AE41EAEEDC /* ApphudSubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudSubscription.swift; path = ApphudSDK/ApphudSubscription.swift; sourceTree = "<group>"; };
+		0B993B339FF43918EB2D9B8E7BE48D20 /* Pods-text_to_speech-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-text_to_speech-Info.plist"; sourceTree = "<group>"; };
+		0DE38071E84A9951B95FEECBEA926D5C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		112B96DE3E9D87BD5E6E9A8943786964 /* ApphudScreenController+Macros.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ApphudScreenController+Macros.swift"; path = "ApphudSDK/ApphudUI/ApphudScreenController+Macros.swift"; sourceTree = "<group>"; };
+		116B608BECADE7354BEF4977EBA361C6 /* ApphudSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ApphudSDK.framework; path = ApphudSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		165B462D008DA3065A72C9BD90FD7C77 /* ApphudSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApphudSDK.debug.xcconfig; sourceTree = "<group>"; };
+		16D352BCBAA30E905CFDA8B4EF1FF65D /* ApphudSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ApphudSDK-Info.plist"; sourceTree = "<group>"; };
+		18F3E3E6DC47B5FBDD77C9063912B89C /* Pods-text_to_speech-text_to_speechUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-text_to_speech-text_to_speechUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F7A76AE5000A8D9705F92F0A3F4AA88 /* ApphudScreenController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudScreenController.swift; path = ApphudSDK/ApphudUI/ApphudScreenController.swift; sourceTree = "<group>"; };
+		209A48520EBCEFD614C3B8288BCD6589 /* ApphudInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudInternal.swift; path = ApphudSDK/ApphudInternal.swift; sourceTree = "<group>"; };
+		21EFA1FB88556BB8D8F7885167ABE287 /* Pods-text_to_speechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-text_to_speechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A68BA7830B6D56730408571D677A581 /* ApphudExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudExtensions.swift; path = ApphudSDK/ApphudExtensions.swift; sourceTree = "<group>"; };
+		2BC341A2EB19C048825B74667D13E236 /* ApphudHttpClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudHttpClient.swift; path = ApphudSDK/ApphudHttpClient.swift; sourceTree = "<group>"; };
+		2F35DC2C1078E21FD25D25DAFE8F2300 /* Pods-text_to_speech.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-text_to_speech.modulemap"; sourceTree = "<group>"; };
+		32D6185D5FE1C590722B938EC1AE7DDA /* ApphudInternal+Purchase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ApphudInternal+Purchase.swift"; path = "ApphudSDK/ApphudInternal+Purchase.swift"; sourceTree = "<group>"; };
+		348891A529AE1AED761DB743AA289625 /* Pods-text_to_speech-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-text_to_speech-acknowledgements.plist"; sourceTree = "<group>"; };
+		35A8A3FD86D2761C9ABCC37B7E222144 /* Pods-text_to_speech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-text_to_speech.release.xcconfig"; sourceTree = "<group>"; };
+		42802E5D14DDF601F78A15A699907D5E /* Pods-text_to_speech-text_to_speechUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-text_to_speech-text_to_speechUITests.modulemap"; sourceTree = "<group>"; };
+		47FC801245536DD94D4662FE659CDF67 /* ApphudKeychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudKeychain.swift; path = ApphudSDK/ApphudKeychain.swift; sourceTree = "<group>"; };
+		4878DCB24B38C64C2FBB4E5886A6799D /* Pods-text_to_speech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-text_to_speech.debug.xcconfig"; sourceTree = "<group>"; };
+		4B5926DBBA833F63C5BA78B147BEDDC6 /* ApphudUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudUtils.swift; path = ApphudSDK/ApphudUtils.swift; sourceTree = "<group>"; };
+		530FA9851CE3AD9503A8461DCA201172 /* Pods_text_to_speechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_text_to_speechTests.framework; path = "Pods-text_to_speechTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55491B53CCB52C197797CCFE018C0BF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		558028562D17FBA310CFB7610FF6FBD3 /* Pods-text_to_speech-text_to_speechUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-text_to_speech-text_to_speechUITests-Info.plist"; sourceTree = "<group>"; };
+		55F61EEBB10E03E754D5149CF31C0B9E /* ApphudSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApphudSDK-umbrella.h"; sourceTree = "<group>"; };
+		560151A8D0F68001317653C905864C25 /* Pods-text_to_speechTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-text_to_speechTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58929F6636093E992B834B84C75D2B9A /* ApphudRulesManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudRulesManager.swift; path = ApphudSDK/ApphudUI/ApphudRulesManager.swift; sourceTree = "<group>"; };
+		5ADEBBCC3F4E789E1FE322FD2DA6EDA8 /* ApphudSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApphudSDK-dummy.m"; sourceTree = "<group>"; };
+		6447B4DCE88AD3C3B6BC3F9DA98B8AF0 /* Pods-text_to_speechTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-text_to_speechTests-dummy.m"; sourceTree = "<group>"; };
+		67B553498D66186F6662BDE45906B481 /* ApphudProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudProduct.swift; path = ApphudSDK/ApphudProduct.swift; sourceTree = "<group>"; };
+		681188D4C4449CE17FCA107B7E3FD88C /* ApphudScreenController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ApphudScreenController+Extensions.swift"; path = "ApphudSDK/ApphudUI/ApphudScreenController+Extensions.swift"; sourceTree = "<group>"; };
+		6C9E0AB075A486DC423D2467DE14778E /* ApphudInternal+Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ApphudInternal+Product.swift"; path = "ApphudSDK/ApphudInternal+Product.swift"; sourceTree = "<group>"; };
+		720A442612602D481E2A6695CDB74777 /* Pods-text_to_speechTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-text_to_speechTests-Info.plist"; sourceTree = "<group>"; };
+		773996FD9567292472EF3E58725C135B /* Pods-text_to_speechTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-text_to_speechTests.modulemap"; sourceTree = "<group>"; };
+		78B34C76B9F0999C24336BCAAED99F51 /* ApphudLoggerService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudLoggerService.swift; path = ApphudSDK/ApphudLoggerService.swift; sourceTree = "<group>"; };
+		7A45A6001EB7F5C807023A2EB279075F /* Pods-text_to_speech-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-text_to_speech-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BC42C08F4A37F174A6EA236BD9978D1 /* Pods-text_to_speechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-text_to_speechTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D6169AE375D7FEF08410CB5A0F09529 /* ApphudReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudReceipt.swift; path = ApphudSDK/ApphudReceipt.swift; sourceTree = "<group>"; };
+		80C8B64D89A4C68EF7215632DF81E82C /* Pods-text_to_speech-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-text_to_speech-frameworks.sh"; sourceTree = "<group>"; };
+		8516A5D164F89B9F3BE77CC1589EF6C8 /* Pods-text_to_speech-text_to_speechUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-text_to_speech-text_to_speechUITests-dummy.m"; sourceTree = "<group>"; };
+		85627FFE42479F2B21A92EEB7D6202E3 /* ApphudRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudRule.swift; path = ApphudSDK/ApphudRule.swift; sourceTree = "<group>"; };
+		89E236EB8376A66F0F380A069A69F023 /* ApphudError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudError.swift; path = ApphudSDK/ApphudError.swift; sourceTree = "<group>"; };
+		8B22CBECAD4B031F0853DCD9972973D2 /* ApphudGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudGroup.swift; path = ApphudSDK/ApphudGroup.swift; sourceTree = "<group>"; };
+		8C3B3C9E98739B1FBE9D95262C49B7EA /* Pods-text_to_speechTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-text_to_speechTests-umbrella.h"; sourceTree = "<group>"; };
+		8E8DA2B9947A2E132BC2ED43EDA93889 /* Pods-text_to_speech-text_to_speechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-text_to_speech-text_to_speechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB2C0F9A978BFDBDA011F701EB5CB80 /* Pods-text_to_speech-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-text_to_speech-umbrella.h"; sourceTree = "<group>"; };
+		9DCFB5D4BB0EBA9EFA19B76DFABBB427 /* ApphudUserPropertyKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudUserPropertyKey.swift; path = ApphudSDK/ApphudUserPropertyKey.swift; sourceTree = "<group>"; };
+		A82472B75A329DBF8738C5D60AAB15E2 /* Pods-text_to_speechTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-text_to_speechTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9081F363CDC3EE30E976BD9DA9FBB5D /* Apphud.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Apphud.swift; path = ApphudSDK/Apphud.swift; sourceTree = "<group>"; };
+		A941ADE8D0BBB379566F73D2AAABBA78 /* Pods-text_to_speech-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-text_to_speech-dummy.m"; sourceTree = "<group>"; };
+		AE8BE7040642A7E16C2BEE2CB56C487B /* ApphudSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApphudSDK.modulemap; sourceTree = "<group>"; };
+		B0463C82436F306FE3EE7EDF5308CC7D /* ApphudInternal+UserUpdate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ApphudInternal+UserUpdate.swift"; path = "ApphudSDK/ApphudInternal+UserUpdate.swift"; sourceTree = "<group>"; };
+		B213800288ACDE9FB58C6CBA689417C7 /* ApphudSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApphudSDK.release.xcconfig; sourceTree = "<group>"; };
+		B25CE3C6C26BD83FD6D6B4C027EF9AB5 /* ApphudInternal+Eligibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ApphudInternal+Eligibility.swift"; path = "ApphudSDK/ApphudInternal+Eligibility.swift"; sourceTree = "<group>"; };
+		B60474E43820514243552C0A6A860F38 /* ApphudUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudUser.swift; path = ApphudSDK/ApphudUser.swift; sourceTree = "<group>"; };
+		B7B1873F7EB6FC8DA6136C30F2C541C8 /* ApphudPaywall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudPaywall.swift; path = ApphudSDK/ApphudPaywall.swift; sourceTree = "<group>"; };
+		C4B8F6D22F34915341DE6BD199F1BFE9 /* ApphudInternal+Attribution.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ApphudInternal+Attribution.swift"; path = "ApphudSDK/ApphudInternal+Attribution.swift"; sourceTree = "<group>"; };
+		C74BD2AC1082AE0A170C1036C8226A9E /* Pods-text_to_speech-text_to_speechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-text_to_speech-text_to_speechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C82EFF6192AEDEBF0A7639CF58B9F6C8 /* ApphudScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudScreen.swift; path = ApphudSDK/ApphudScreen.swift; sourceTree = "<group>"; };
+		D6500CAD717DC4DE94C98B45A996E353 /* Pods_text_to_speech_text_to_speechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_text_to_speech_text_to_speechUITests.framework; path = "Pods-text_to_speech-text_to_speechUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E0F20DF1DCEBE4BABE9237DB9BF2CC /* ApphudNonRenewingPurchase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudNonRenewingPurchase.swift; path = ApphudSDK/ApphudNonRenewingPurchase.swift; sourceTree = "<group>"; };
+		E38D285CCCF3868BE4ECC630458AF1F2 /* ApphudSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApphudSDK-prefix.pch"; sourceTree = "<group>"; };
+		E4362070C87FF01AFAC1A56DFFBD940D /* Pods-text_to_speech-text_to_speechUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-text_to_speech-text_to_speechUITests-umbrella.h"; sourceTree = "<group>"; };
+		E47BDBB2A433462B77A42968CCF96F1D /* ApphudNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudNavigationController.swift; path = ApphudSDK/ApphudUI/ApphudNavigationController.swift; sourceTree = "<group>"; };
+		E72711890D808637C948DF5ECED5D2E3 /* Pods-text_to_speech-text_to_speechUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-text_to_speech-text_to_speechUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E79F37E0E05437E2ED7B47841EA6B116 /* ApphudUserProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudUserProperty.swift; path = ApphudSDK/ApphudUserProperty.swift; sourceTree = "<group>"; };
+		E9522249F83AFB8FBD78FE599749F844 /* ApphudStoreKitWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudStoreKitWrapper.swift; path = ApphudSDK/ApphudStoreKitWrapper.swift; sourceTree = "<group>"; };
+		E95A6387FE447B659B56B3E60F4BC211 /* Pods-text_to_speech-text_to_speechUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-text_to_speech-text_to_speechUITests-frameworks.sh"; sourceTree = "<group>"; };
+		ED90B5DC4B7AE2B0B9F3301212CE9395 /* ApphudPurchaseResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApphudPurchaseResult.swift; path = ApphudSDK/ApphudPurchaseResult.swift; sourceTree = "<group>"; };
+		FD690A12E8E9418D9D6263B8C5403913 /* Pods_text_to_speech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_text_to_speech.framework; path = "Pods-text_to_speech.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69E0A3E039C85E96BB4D119633CFC5A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADC1B24176ABF6C2B9AB0857102658C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B52D088DFD41A965029BE0AF2724A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874A9B423AD577D8C304D1C53EF2CBBD /* Foundation.framework in Frameworks */,
+				F774CAC999E5B5E33A80E3E6BBF133C2 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94552D676495F8C166AEE33D7DFE5F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FCE05ECDA49D95CA189854A5AA5477 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1D999633960E6C32E1EB1A2E2AEBA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B703FC65D732DAE4C3E3898848E2A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56205F8B04F409907D8418F2458AEAD3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		175E276E293BB625ADA0234157110A93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BE7040642A7E16C2BEE2CB56C487B /* ApphudSDK.modulemap */,
+				5ADEBBCC3F4E789E1FE322FD2DA6EDA8 /* ApphudSDK-dummy.m */,
+				16D352BCBAA30E905CFDA8B4EF1FF65D /* ApphudSDK-Info.plist */,
+				E38D285CCCF3868BE4ECC630458AF1F2 /* ApphudSDK-prefix.pch */,
+				55F61EEBB10E03E754D5149CF31C0B9E /* ApphudSDK-umbrella.h */,
+				165B462D008DA3065A72C9BD90FD7C77 /* ApphudSDK.debug.xcconfig */,
+				B213800288ACDE9FB58C6CBA689417C7 /* ApphudSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ApphudSDK";
+			sourceTree = "<group>";
+		};
+		3A3B26A19B8426E5DB4AF3678608BD67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFE19BB75538B04E8B988730E71BEB13 /* ApphudSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56205F8B04F409907D8418F2458AEAD3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				55491B53CCB52C197797CCFE018C0BF6 /* Foundation.framework */,
+				0DE38071E84A9951B95FEECBEA926D5C /* StoreKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BD91CFC98181676303EDF77DAFFB01DE /* Pods-text_to_speechTests */ = {
+			isa = PBXGroup;
+			children = (
+				773996FD9567292472EF3E58725C135B /* Pods-text_to_speechTests.modulemap */,
+				A82472B75A329DBF8738C5D60AAB15E2 /* Pods-text_to_speechTests-acknowledgements.markdown */,
+				560151A8D0F68001317653C905864C25 /* Pods-text_to_speechTests-acknowledgements.plist */,
+				6447B4DCE88AD3C3B6BC3F9DA98B8AF0 /* Pods-text_to_speechTests-dummy.m */,
+				720A442612602D481E2A6695CDB74777 /* Pods-text_to_speechTests-Info.plist */,
+				8C3B3C9E98739B1FBE9D95262C49B7EA /* Pods-text_to_speechTests-umbrella.h */,
+				21EFA1FB88556BB8D8F7885167ABE287 /* Pods-text_to_speechTests.debug.xcconfig */,
+				7BC42C08F4A37F174A6EA236BD9978D1 /* Pods-text_to_speechTests.release.xcconfig */,
+			);
+			name = "Pods-text_to_speechTests";
+			path = "Target Support Files/Pods-text_to_speechTests";
+			sourceTree = "<group>";
+		};
+		C3BEE1D851E796E914A0151A3CC22471 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7F18839686FEC1063DDAFA925791597 /* Pods-text_to_speech */,
+				E3CA069821D5A79B2EBAF92480FDC4C0 /* Pods-text_to_speech-text_to_speechUITests */,
+				BD91CFC98181676303EDF77DAFFB01DE /* Pods-text_to_speechTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				3A3B26A19B8426E5DB4AF3678608BD67 /* Pods */,
+				EC4082C811A0E391F9ACDEB1EF147B79 /* Products */,
+				C3BEE1D851E796E914A0151A3CC22471 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7F18839686FEC1063DDAFA925791597 /* Pods-text_to_speech */ = {
+			isa = PBXGroup;
+			children = (
+				2F35DC2C1078E21FD25D25DAFE8F2300 /* Pods-text_to_speech.modulemap */,
+				7A45A6001EB7F5C807023A2EB279075F /* Pods-text_to_speech-acknowledgements.markdown */,
+				348891A529AE1AED761DB743AA289625 /* Pods-text_to_speech-acknowledgements.plist */,
+				A941ADE8D0BBB379566F73D2AAABBA78 /* Pods-text_to_speech-dummy.m */,
+				80C8B64D89A4C68EF7215632DF81E82C /* Pods-text_to_speech-frameworks.sh */,
+				0B993B339FF43918EB2D9B8E7BE48D20 /* Pods-text_to_speech-Info.plist */,
+				9DB2C0F9A978BFDBDA011F701EB5CB80 /* Pods-text_to_speech-umbrella.h */,
+				4878DCB24B38C64C2FBB4E5886A6799D /* Pods-text_to_speech.debug.xcconfig */,
+				35A8A3FD86D2761C9ABCC37B7E222144 /* Pods-text_to_speech.release.xcconfig */,
+			);
+			name = "Pods-text_to_speech";
+			path = "Target Support Files/Pods-text_to_speech";
+			sourceTree = "<group>";
+		};
+		E3CA069821D5A79B2EBAF92480FDC4C0 /* Pods-text_to_speech-text_to_speechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42802E5D14DDF601F78A15A699907D5E /* Pods-text_to_speech-text_to_speechUITests.modulemap */,
+				18F3E3E6DC47B5FBDD77C9063912B89C /* Pods-text_to_speech-text_to_speechUITests-acknowledgements.markdown */,
+				E72711890D808637C948DF5ECED5D2E3 /* Pods-text_to_speech-text_to_speechUITests-acknowledgements.plist */,
+				8516A5D164F89B9F3BE77CC1589EF6C8 /* Pods-text_to_speech-text_to_speechUITests-dummy.m */,
+				E95A6387FE447B659B56B3E60F4BC211 /* Pods-text_to_speech-text_to_speechUITests-frameworks.sh */,
+				558028562D17FBA310CFB7610FF6FBD3 /* Pods-text_to_speech-text_to_speechUITests-Info.plist */,
+				E4362070C87FF01AFAC1A56DFFBD940D /* Pods-text_to_speech-text_to_speechUITests-umbrella.h */,
+				8E8DA2B9947A2E132BC2ED43EDA93889 /* Pods-text_to_speech-text_to_speechUITests.debug.xcconfig */,
+				C74BD2AC1082AE0A170C1036C8226A9E /* Pods-text_to_speech-text_to_speechUITests.release.xcconfig */,
+			);
+			name = "Pods-text_to_speech-text_to_speechUITests";
+			path = "Target Support Files/Pods-text_to_speech-text_to_speechUITests";
+			sourceTree = "<group>";
+		};
+		EC4082C811A0E391F9ACDEB1EF147B79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116B608BECADE7354BEF4977EBA361C6 /* ApphudSDK.framework */,
+				FD690A12E8E9418D9D6263B8C5403913 /* Pods_text_to_speech.framework */,
+				D6500CAD717DC4DE94C98B45A996E353 /* Pods_text_to_speech_text_to_speechUITests.framework */,
+				530FA9851CE3AD9503A8461DCA201172 /* Pods_text_to_speechTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE19BB75538B04E8B988730E71BEB13 /* ApphudSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A9081F363CDC3EE30E976BD9DA9FBB5D /* Apphud.swift */,
+				89E236EB8376A66F0F380A069A69F023 /* ApphudError.swift */,
+				2A68BA7830B6D56730408571D677A581 /* ApphudExtensions.swift */,
+				8B22CBECAD4B031F0853DCD9972973D2 /* ApphudGroup.swift */,
+				2BC341A2EB19C048825B74667D13E236 /* ApphudHttpClient.swift */,
+				209A48520EBCEFD614C3B8288BCD6589 /* ApphudInternal.swift */,
+				C4B8F6D22F34915341DE6BD199F1BFE9 /* ApphudInternal+Attribution.swift */,
+				B25CE3C6C26BD83FD6D6B4C027EF9AB5 /* ApphudInternal+Eligibility.swift */,
+				6C9E0AB075A486DC423D2467DE14778E /* ApphudInternal+Product.swift */,
+				32D6185D5FE1C590722B938EC1AE7DDA /* ApphudInternal+Purchase.swift */,
+				B0463C82436F306FE3EE7EDF5308CC7D /* ApphudInternal+UserUpdate.swift */,
+				47FC801245536DD94D4662FE659CDF67 /* ApphudKeychain.swift */,
+				78B34C76B9F0999C24336BCAAED99F51 /* ApphudLoggerService.swift */,
+				E47BDBB2A433462B77A42968CCF96F1D /* ApphudNavigationController.swift */,
+				D6E0F20DF1DCEBE4BABE9237DB9BF2CC /* ApphudNonRenewingPurchase.swift */,
+				B7B1873F7EB6FC8DA6136C30F2C541C8 /* ApphudPaywall.swift */,
+				67B553498D66186F6662BDE45906B481 /* ApphudProduct.swift */,
+				ED90B5DC4B7AE2B0B9F3301212CE9395 /* ApphudPurchaseResult.swift */,
+				7D6169AE375D7FEF08410CB5A0F09529 /* ApphudReceipt.swift */,
+				85627FFE42479F2B21A92EEB7D6202E3 /* ApphudRule.swift */,
+				58929F6636093E992B834B84C75D2B9A /* ApphudRulesManager.swift */,
+				C82EFF6192AEDEBF0A7639CF58B9F6C8 /* ApphudScreen.swift */,
+				1F7A76AE5000A8D9705F92F0A3F4AA88 /* ApphudScreenController.swift */,
+				681188D4C4449CE17FCA107B7E3FD88C /* ApphudScreenController+Extensions.swift */,
+				112B96DE3E9D87BD5E6E9A8943786964 /* ApphudScreenController+Macros.swift */,
+				E9522249F83AFB8FBD78FE599749F844 /* ApphudStoreKitWrapper.swift */,
+				0B5C4D9D934AD831CC84E9AE41EAEEDC /* ApphudSubscription.swift */,
+				B60474E43820514243552C0A6A860F38 /* ApphudUser.swift */,
+				E79F37E0E05437E2ED7B47841EA6B116 /* ApphudUserProperty.swift */,
+				9DCFB5D4BB0EBA9EFA19B76DFABBB427 /* ApphudUserPropertyKey.swift */,
+				4B5926DBBA833F63C5BA78B147BEDDC6 /* ApphudUtils.swift */,
+				175E276E293BB625ADA0234157110A93 /* Support Files */,
+			);
+			name = ApphudSDK;
+			path = ApphudSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30D35627FF07A65322EEA71B87A4E641 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E4351CD8B715BC9D58714949D20F0C /* Pods-text_to_speech-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D710D7164E5E3FB6F056D8625EF76C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E109E1462356F075022B1ED7452C2B6 /* Pods-text_to_speech-text_to_speechUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FCDBA8BA7997326AD433D49842C293 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04A8D8CE4D5E9B3418965EE3A39F591 /* Pods-text_to_speechTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66046FA9BC22DAA3EA0540210C3AA0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F9F39531689FB55EAF12B4BAB2DC9A /* ApphudSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		343DC10EADFFDC93272E42B403A64D9F /* ApphudSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAFE668F8231D12E85F6040796E4C03 /* Build configuration list for PBXNativeTarget "ApphudSDK" */;
+			buildPhases = (
+				C66046FA9BC22DAA3EA0540210C3AA0A /* Headers */,
+				93D047A46696AEDD96B4357DF4F493DD /* Sources */,
+				8B52D088DFD41A965029BE0AF2724A8B /* Frameworks */,
+				24EEC630E29BF1CF9C555AED1FC53BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApphudSDK;
+			productName = ApphudSDK;
+			productReference = 116B608BECADE7354BEF4977EBA361C6 /* ApphudSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41069CC45B65E54289A2AC19E86320F1 /* Pods-text_to_speechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB69AFF2CB6320CFEB0F0DA576673188 /* Build configuration list for PBXNativeTarget "Pods-text_to_speechTests" */;
+			buildPhases = (
+				80FCDBA8BA7997326AD433D49842C293 /* Headers */,
+				E37851BBA33A9CCDA7FC91C12C04E68E /* Sources */,
+				94552D676495F8C166AEE33D7DFE5F99 /* Frameworks */,
+				1DFFEEA83004BD1A872708A94195A60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64ECE4023E2A200000A4F272471BA2B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-text_to_speechTests";
+			productName = "Pods-text_to_speechTests";
+			productReference = 530FA9851CE3AD9503A8461DCA201172 /* Pods_text_to_speechTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACCC6943C4585621206FF1874260125D /* Pods-text_to_speech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A357CFE648727930782D2D2F27645626 /* Build configuration list for PBXNativeTarget "Pods-text_to_speech" */;
+			buildPhases = (
+				30D35627FF07A65322EEA71B87A4E641 /* Headers */,
+				A3F63B3BB149AE2331662BD6EF5A3B39 /* Sources */,
+				69E0A3E039C85E96BB4D119633CFC5A5 /* Frameworks */,
+				53F5E2D5DBEA2F9FC56BDA64BAA2F896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22EC0DBD09E306E0C647DA08AACC86E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-text_to_speech";
+			productName = "Pods-text_to_speech";
+			productReference = FD690A12E8E9418D9D6263B8C5403913 /* Pods_text_to_speech.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE30C8E0C461F133125A70F8FA6F9825 /* Pods-text_to_speech-text_to_speechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B69A33A8EDBF64EC65ED62B4F9A961 /* Build configuration list for PBXNativeTarget "Pods-text_to_speech-text_to_speechUITests" */;
+			buildPhases = (
+				32D710D7164E5E3FB6F056D8625EF76C /* Headers */,
+				37BD4B4BD4C12F6119EC42FE577EDCA0 /* Sources */,
+				9E1D999633960E6C32E1EB1A2E2AEBA6 /* Frameworks */,
+				50F2278F18F5CCCEE0C05B339A803CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9BC470FCB03420A7377EF1563351CA /* PBXTargetDependency */,
+			);
+			name = "Pods-text_to_speech-text_to_speechUITests";
+			productName = "Pods-text_to_speech-text_to_speechUITests";
+			productReference = D6500CAD717DC4DE94C98B45A996E353 /* Pods_text_to_speech_text_to_speechUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EC4082C811A0E391F9ACDEB1EF147B79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				343DC10EADFFDC93272E42B403A64D9F /* ApphudSDK */,
+				ACCC6943C4585621206FF1874260125D /* Pods-text_to_speech */,
+				EE30C8E0C461F133125A70F8FA6F9825 /* Pods-text_to_speech-text_to_speechUITests */,
+				41069CC45B65E54289A2AC19E86320F1 /* Pods-text_to_speechTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DFFEEA83004BD1A872708A94195A60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EEC630E29BF1CF9C555AED1FC53BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F2278F18F5CCCEE0C05B339A803CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5E2D5DBEA2F9FC56BDA64BAA2F896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37BD4B4BD4C12F6119EC42FE577EDCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247EF6FB8A31AA6439AF7AB93922FA26 /* Pods-text_to_speech-text_to_speechUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D047A46696AEDD96B4357DF4F493DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901A395F6772B232B49775648EE186A2 /* Apphud.swift in Sources */,
+				893E06A6125B08E5B10E7440072C7091 /* ApphudError.swift in Sources */,
+				BFA5587F35AD14B69614BEB3EEF87C7E /* ApphudExtensions.swift in Sources */,
+				34A4BBD376AB8253F08434E12D2F95A2 /* ApphudGroup.swift in Sources */,
+				8CBAA559B68E79A434FEE834BC4E1975 /* ApphudHttpClient.swift in Sources */,
+				8CE4B47A0B682F1345FB075E9EAE4839 /* ApphudInternal.swift in Sources */,
+				A55D4337B6C8C23DFD412BC3053E6E40 /* ApphudInternal+Attribution.swift in Sources */,
+				296DEA498492A650DEDE24D8607C7269 /* ApphudInternal+Eligibility.swift in Sources */,
+				945CB8E106EC51AE307D575B3AA66F9D /* ApphudInternal+Product.swift in Sources */,
+				1166146DC47468AA6DBC510F18DE4727 /* ApphudInternal+Purchase.swift in Sources */,
+				1E19796F302D6612D31DF9AEB83EB7CE /* ApphudInternal+UserUpdate.swift in Sources */,
+				8EA183DE92E49570FDB0766AFBD7C496 /* ApphudKeychain.swift in Sources */,
+				95F7B9831B60235214393EDFD5E0C077 /* ApphudLoggerService.swift in Sources */,
+				152B06EE085DF67BE88901D6AE8AF1A5 /* ApphudNavigationController.swift in Sources */,
+				A05D15792B1F92EFD4654D7BBE2AD229 /* ApphudNonRenewingPurchase.swift in Sources */,
+				C0768F503B3B76F7BF30088A83CADB77 /* ApphudPaywall.swift in Sources */,
+				3CD8CCE5BD5EA5A590E906B18FF64B2B /* ApphudProduct.swift in Sources */,
+				6EE38E8124C305016D419A476FEE9B89 /* ApphudPurchaseResult.swift in Sources */,
+				BCC5C68E83C2393A893D1BE37935A6BC /* ApphudReceipt.swift in Sources */,
+				AB55B48F7AC99C2F3BFC71AA6E201F77 /* ApphudRule.swift in Sources */,
+				0B99AA9F9A77ABE4C22D94F5F21691FC /* ApphudRulesManager.swift in Sources */,
+				9B0E155FC7E9202D178A8F5DA4356C81 /* ApphudScreen.swift in Sources */,
+				158AEF1595B36EA266CCB3A059FDE717 /* ApphudScreenController.swift in Sources */,
+				3CD7165926219FDCAAD1E8577D62A145 /* ApphudScreenController+Extensions.swift in Sources */,
+				FA561E5588FE2B58DE11BF6CF4C569C3 /* ApphudScreenController+Macros.swift in Sources */,
+				67B7D0E0944532647B070AEE721748D2 /* ApphudSDK-dummy.m in Sources */,
+				E803845C44EEFCCCE6E4B1D629387995 /* ApphudStoreKitWrapper.swift in Sources */,
+				62976BC085E4AF3FB9D797E950988A83 /* ApphudSubscription.swift in Sources */,
+				7064E44F6DE7F45BE2C9422A34797B7A /* ApphudUser.swift in Sources */,
+				9C9E2EDF66E1881B332BF53DA19D9C99 /* ApphudUserProperty.swift in Sources */,
+				1615B85085B803020E5BF4EFEFE6F5BF /* ApphudUserPropertyKey.swift in Sources */,
+				8DCDFEBF72866C12F14DAD6E7DAE0380 /* ApphudUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F63B3BB149AE2331662BD6EF5A3B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC095B5F442113A1341D59E93E389E78 /* Pods-text_to_speech-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37851BBA33A9CCDA7FC91C12C04E68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2202F0263FF1BE957277FA30834B0D43 /* Pods-text_to_speechTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22EC0DBD09E306E0C647DA08AACC86E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ApphudSDK;
+			target = 343DC10EADFFDC93272E42B403A64D9F /* ApphudSDK */;
+			targetProxy = DAF31C5D6E197D51398760F65676F2DD /* PBXContainerItemProxy */;
+		};
+		64ECE4023E2A200000A4F272471BA2B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-text_to_speech";
+			target = ACCC6943C4585621206FF1874260125D /* Pods-text_to_speech */;
+			targetProxy = D6B432D13450E99541C58ECF90430661 /* PBXContainerItemProxy */;
+		};
+		DE9BC470FCB03420A7377EF1563351CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ApphudSDK;
+			target = 343DC10EADFFDC93272E42B403A64D9F /* ApphudSDK */;
+			targetProxy = 125FE207E9CF729A34EA50D10EB00805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		071EF416AAE805368255DDE736A62DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4878DCB24B38C64C2FBB4E5886A6799D /* Pods-text_to_speech.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-text_to_speech/Pods-text_to_speech-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-text_to_speech/Pods-text_to_speech.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		102435CABF88C1C9E3FFED4F5D363B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A8A3FD86D2761C9ABCC37B7E222144 /* Pods-text_to_speech.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-text_to_speech/Pods-text_to_speech-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-text_to_speech/Pods-text_to_speech.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10B1203B07A96336DA4520BD73278B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC42C08F4A37F174A6EA236BD9978D1 /* Pods-text_to_speechTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-text_to_speechTests/Pods-text_to_speechTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-text_to_speechTests/Pods-text_to_speechTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		117142DD4C4C541FE2B6C7F254C7E8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B213800288ACDE9FB58C6CBA689417C7 /* ApphudSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ApphudSDK/ApphudSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ApphudSDK/ApphudSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ApphudSDK/ApphudSDK.modulemap";
+				PRODUCT_MODULE_NAME = ApphudSDK;
+				PRODUCT_NAME = ApphudSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C630E5F22A34AE3692CCAB299A87C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165B462D008DA3065A72C9BD90FD7C77 /* ApphudSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ApphudSDK/ApphudSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ApphudSDK/ApphudSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ApphudSDK/ApphudSDK.modulemap";
+				PRODUCT_MODULE_NAME = ApphudSDK;
+				PRODUCT_NAME = ApphudSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		516987E5245753D76FDBF1E4B8BA6E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74BD2AC1082AE0A170C1036C8226A9E /* Pods-text_to_speech-text_to_speechUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-text_to_speech-text_to_speechUITests/Pods-text_to_speech-text_to_speechUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-text_to_speech-text_to_speechUITests/Pods-text_to_speech-text_to_speechUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56CB732DADDCD2BEFBF41542528BE669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8DA2B9947A2E132BC2ED43EDA93889 /* Pods-text_to_speech-text_to_speechUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-text_to_speech-text_to_speechUITests/Pods-text_to_speech-text_to_speechUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-text_to_speech-text_to_speechUITests/Pods-text_to_speech-text_to_speechUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE910E378201639DFEBD9688C4665ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EFA1FB88556BB8D8F7885167ABE287 /* Pods-text_to_speechTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-text_to_speechTests/Pods-text_to_speechTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-text_to_speechTests/Pods-text_to_speechTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAFE668F8231D12E85F6040796E4C03 /* Build configuration list for PBXNativeTarget "ApphudSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C630E5F22A34AE3692CCAB299A87C64 /* Debug */,
+				117142DD4C4C541FE2B6C7F254C7E8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A357CFE648727930782D2D2F27645626 /* Build configuration list for PBXNativeTarget "Pods-text_to_speech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071EF416AAE805368255DDE736A62DF5 /* Debug */,
+				102435CABF88C1C9E3FFED4F5D363B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B69A33A8EDBF64EC65ED62B4F9A961 /* Build configuration list for PBXNativeTarget "Pods-text_to_speech-text_to_speechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CB732DADDCD2BEFBF41542528BE669 /* Debug */,
+				516987E5245753D76FDBF1E4B8BA6E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB69AFF2CB6320CFEB0F0DA576673188 /* Build configuration list for PBXNativeTarget "Pods-text_to_speechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE910E378201639DFEBD9688C4665ED8 /* Debug */,
+				10B1203B07A96336DA4520BD73278B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

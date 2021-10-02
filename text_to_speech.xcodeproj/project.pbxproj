@@ -3,16 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		482F25E2D12DC4CADBF0FE3C /* Pods_text_to_speechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE3E0B26E2D8F0AC47091D /* Pods_text_to_speechTests.framework */; };
+		9F1C137981514862D179FEEA /* Pods_text_to_speech_text_to_speechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111012B9E944A12797655508 /* Pods_text_to_speech_text_to_speechUITests.framework */; };
+		C23251E12C06C88A1D3115FD /* Pods_text_to_speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1228724152AD6AB7FBC2D51C /* Pods_text_to_speech.framework */; };
 		ED4332E326F2226D00F81375 /* text_to_speechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4332E226F2226D00F81375 /* text_to_speechApp.swift */; };
-		ED4332E526F2226D00F81375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4332E426F2226D00F81375 /* ContentView.swift */; };
+		ED4332E526F2226D00F81375 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4332E426F2226D00F81375 /* Text.swift */; };
 		ED4332E726F2226E00F81375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4332E626F2226E00F81375 /* Assets.xcassets */; };
 		ED4332EA26F2226E00F81375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4332E926F2226E00F81375 /* Preview Assets.xcassets */; };
 		ED4332F526F2226E00F81375 /* text_to_speechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4332F426F2226E00F81375 /* text_to_speechTests.swift */; };
 		ED43330026F2226E00F81375 /* text_to_speechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4332FF26F2226E00F81375 /* text_to_speechUITests.swift */; };
+		ED43330E26F4EA9100F81375 /* audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43330D26F4EA9100F81375 /* audio.swift */; };
+		ED4F87AA26FA15E500F16B7E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4F87A926FA15E500F16B7E /* History.swift */; };
+		ED4F87AC26FA256B00F16B7E /* Text2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4F87AB26FA256B00F16B7E /* Text2.swift */; };
+		ED75D46526FBC14C00546460 /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75D46426FBC14C00546460 /* Favourite.swift */; };
+		ED75D46726FF3EF000546460 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75D46626FF3EF000546460 /* Settings.swift */; };
+		ED75D46926FF419B00546460 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75D46826FF419B00546460 /* UserSettings.swift */; };
+		ED75D46B26FF522B00546460 /* picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75D46A26FF522B00546460 /* picker.swift */; };
+		EDA9365826F6227C000EAA5F /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9365726F6227C000EAA5F /* ViewRouter.swift */; };
+		EDA9365A26F62503000EAA5F /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9365926F62503000EAA5F /* MotherView.swift */; };
+		EDA9365C26F62579000EAA5F /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9365B26F62579000EAA5F /* Main.swift */; };
+		EDA9365E26F62D16000EAA5F /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9365D26F62D16000EAA5F /* utils.swift */; };
+		EDA9368326F7D6AF000EAA5F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9368226F7D6AF000EAA5F /* Persistence.swift */; };
+		EDC96BE0270395E9009F2451 /* onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC96BDF270395E9009F2451 /* onboarding.swift */; };
+		EDC96BE22703968C009F2451 /* apphud.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC96BE12703968C009F2451 /* apphud.swift */; };
+		EDD7E50127027B770096B1CC /* Montserrat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDD7E50027027B770096B1CC /* Montserrat.ttf */; };
+		EDDB725926FA90C8001CD62C /* history2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDDB725726FA90C8001CD62C /* history2.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09DAB18D7FEC9E23691D6143 /* Pods-text_to_speech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text_to_speech.debug.xcconfig"; path = "Target Support Files/Pods-text_to_speech/Pods-text_to_speech.debug.xcconfig"; sourceTree = "<group>"; };
+		111012B9E944A12797655508 /* Pods_text_to_speech_text_to_speechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_text_to_speech_text_to_speechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1228724152AD6AB7FBC2D51C /* Pods_text_to_speech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_text_to_speech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D900199A69814FDBEFA0FA /* Pods-text_to_speechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text_to_speechTests.release.xcconfig"; path = "Target Support Files/Pods-text_to_speechTests/Pods-text_to_speechTests.release.xcconfig"; sourceTree = "<group>"; };
+		434017926464BF345304C7E4 /* Pods-text_to_speech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text_to_speech.release.xcconfig"; path = "Target Support Files/Pods-text_to_speech/Pods-text_to_speech.release.xcconfig"; sourceTree = "<group>"; };
+		58D45EE16E008E39171CC3BF /* Pods-text_to_speech-text_to_speechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text_to_speech-text_to_speechUITests.release.xcconfig"; path = "Target Support Files/Pods-text_to_speech-text_to_speechUITests/Pods-text_to_speech-text_to_speechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6BFE3E0B26E2D8F0AC47091D /* Pods_text_to_speechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_text_to_speechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDC65EBDE38AAB85F104D8C /* Pods-text_to_speech-text_to_speechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text_to_speech-text_to_speechUITests.debug.xcconfig"; path = "Target Support Files/Pods-text_to_speech-text_to_speechUITests/Pods-text_to_speech-text_to_speechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A45A84882EFFF15308142F75 /* Pods-text_to_speechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-text_to_speechTests.debug.xcconfig"; path = "Target Support Files/Pods-text_to_speechTests/Pods-text_to_speechTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED4332DF26F2226D00F81375 /* text_to_speech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = text_to_speech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4332E226F2226D00F81375 /* text_to_speechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text_to_speechApp.swift; sourceTree = "<group>"; };
-		ED4332E426F2226D00F81375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED4332E426F2226D00F81375 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		ED4332E626F2226E00F81375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED4332E926F2226E00F81375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED4332EB26F2226E00F81375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +73,25 @@
 		ED4332FB26F2226E00F81375 /* text_to_speechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = text_to_speechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4332FF26F2226E00F81375 /* text_to_speechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text_to_speechUITests.swift; sourceTree = "<group>"; };
 		ED43330126F2226E00F81375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED43330D26F4EA9100F81375 /* audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio.swift; sourceTree = "<group>"; };
+		ED4F87A926FA15E500F16B7E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		ED4F87AB26FA256B00F16B7E /* Text2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2.swift; sourceTree = "<group>"; };
+		ED75D46426FBC14C00546460 /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
+		ED75D46626FF3EF000546460 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		ED75D46826FF419B00546460 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		ED75D46A26FF522B00546460 /* picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picker.swift; sourceTree = "<group>"; };
+		ED99E59427027894007C6A97 /* text_to_speech */ = {isa = PBXFileReference; lastKnownFileType = folder; path = text_to_speech; sourceTree = "<group>"; };
+		EDA9365726F6227C000EAA5F /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		EDA9365926F62503000EAA5F /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		EDA9365B26F62579000EAA5F /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		EDA9365D26F62D16000EAA5F /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		EDA9368226F7D6AF000EAA5F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EDC96BDE2703927A009F2451 /* text_to_speech.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = text_to_speech.entitlements; sourceTree = "<group>"; };
+		EDC96BDF270395E9009F2451 /* onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding.swift; sourceTree = "<group>"; };
+		EDC96BE12703968C009F2451 /* apphud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apphud.swift; sourceTree = "<group>"; };
+		EDC96BE327039B9C009F2451 /* first_try.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = first_try.storekit; sourceTree = "<group>"; };
+		EDD7E50027027B770096B1CC /* Montserrat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Montserrat.ttf; sourceTree = "<group>"; };
+		EDDB725826FA90C8001CD62C /* history2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = history2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23251E12C06C88A1D3115FD /* Pods_text_to_speech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482F25E2D12DC4CADBF0FE3C /* Pods_text_to_speechTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +115,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1C137981514862D179FEEA /* Pods_text_to_speech_text_to_speechUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96CAB65B1D723DF5F71AF4B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09DAB18D7FEC9E23691D6143 /* Pods-text_to_speech.debug.xcconfig */,
+				434017926464BF345304C7E4 /* Pods-text_to_speech.release.xcconfig */,
+				6EDC65EBDE38AAB85F104D8C /* Pods-text_to_speech-text_to_speechUITests.debug.xcconfig */,
+				58D45EE16E008E39171CC3BF /* Pods-text_to_speech-text_to_speechUITests.release.xcconfig */,
+				A45A84882EFFF15308142F75 /* Pods-text_to_speechTests.debug.xcconfig */,
+				35D900199A69814FDBEFA0FA /* Pods-text_to_speechTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ED4332D626F2226D00F81375 = {
 			isa = PBXGroup;
 			children = (
 				ED4332E126F2226D00F81375 /* text_to_speech */,
+				ED99E59427027894007C6A97 /* text_to_speech */,
 				ED4332F326F2226E00F81375 /* text_to_speechTests */,
 				ED4332FE26F2226E00F81375 /* text_to_speechUITests */,
 				ED4332E026F2226D00F81375 /* Products */,
+				96CAB65B1D723DF5F71AF4B5 /* Pods */,
+				F008D1D7B682417102DDA738 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +161,29 @@
 		ED4332E126F2226D00F81375 /* text_to_speech */ = {
 			isa = PBXGroup;
 			children = (
+				EDC96BDE2703927A009F2451 /* text_to_speech.entitlements */,
 				ED4332E226F2226D00F81375 /* text_to_speechApp.swift */,
-				ED4332E426F2226D00F81375 /* ContentView.swift */,
-				ED4332E626F2226E00F81375 /* Assets.xcassets */,
+				EDA9365726F6227C000EAA5F /* ViewRouter.swift */,
+				ED43330D26F4EA9100F81375 /* audio.swift */,
+				EDA9365926F62503000EAA5F /* MotherView.swift */,
+				EDA9365B26F62579000EAA5F /* Main.swift */,
+				ED4332E426F2226D00F81375 /* Text.swift */,
+				ED4F87A926FA15E500F16B7E /* History.swift */,
+				EDA9365D26F62D16000EAA5F /* utils.swift */,
+				EDA9368226F7D6AF000EAA5F /* Persistence.swift */,
+				ED75D46426FBC14C00546460 /* Favourite.swift */,
+				EDDB725726FA90C8001CD62C /* history2.xcdatamodeld */,
 				ED4332EB26F2226E00F81375 /* Info.plist */,
+				ED4F87AB26FA256B00F16B7E /* Text2.swift */,
+				ED75D46626FF3EF000546460 /* Settings.swift */,
+				EDD7E50027027B770096B1CC /* Montserrat.ttf */,
+				ED75D46826FF419B00546460 /* UserSettings.swift */,
+				ED75D46A26FF522B00546460 /* picker.swift */,
+				EDC96BDF270395E9009F2451 /* onboarding.swift */,
+				EDC96BE12703968C009F2451 /* apphud.swift */,
+				ED4332E626F2226E00F81375 /* Assets.xcassets */,
 				ED4332E826F2226E00F81375 /* Preview Content */,
+				EDC96BE327039B9C009F2451 /* first_try.storekit */,
 			);
 			path = text_to_speech;
 			sourceTree = "<group>";
@@ -130,6 +214,16 @@
 			path = text_to_speechUITests;
 			sourceTree = "<group>";
 		};
+		F008D1D7B682417102DDA738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1228724152AD6AB7FBC2D51C /* Pods_text_to_speech.framework */,
+				111012B9E944A12797655508 /* Pods_text_to_speech_text_to_speechUITests.framework */,
+				6BFE3E0B26E2D8F0AC47091D /* Pods_text_to_speechTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED43330426F2226E00F81375 /* Build configuration list for PBXNativeTarget "text_to_speech" */;
 			buildPhases = (
+				9002CFE6AAF0129A952E2663 /* [CP] Check Pods Manifest.lock */,
 				ED4332DB26F2226D00F81375 /* Sources */,
 				ED4332DC26F2226D00F81375 /* Frameworks */,
 				ED4332DD26F2226D00F81375 /* Resources */,
+				B289CBED3BDB3761ABE35138 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED43330726F2226E00F81375 /* Build configuration list for PBXNativeTarget "text_to_speechTests" */;
 			buildPhases = (
+				F62E22C0813FB26FAC6E1540 /* [CP] Check Pods Manifest.lock */,
 				ED4332EC26F2226E00F81375 /* Sources */,
 				ED4332ED26F2226E00F81375 /* Frameworks */,
 				ED4332EE26F2226E00F81375 /* Resources */,
@@ -172,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED43330A26F2226E00F81375 /* Build configuration list for PBXNativeTarget "text_to_speechUITests" */;
 			buildPhases = (
+				CD4A17CF1A3E9717AB8BBEAD /* [CP] Check Pods Manifest.lock */,
 				ED4332F726F2226E00F81375 /* Sources */,
 				ED4332F826F2226E00F81375 /* Frameworks */,
 				ED4332F926F2226E00F81375 /* Resources */,
+				C439490C7B522BEF3AFBFDBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD7E50127027B770096B1CC /* Montserrat.ttf in Resources */,
 				ED4332EA26F2226E00F81375 /* Preview Assets.xcassets in Resources */,
 				ED4332E726F2226E00F81375 /* Assets.xcassets in Resources */,
 			);
@@ -254,13 +354,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9002CFE6AAF0129A952E2663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-text_to_speech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B289CBED3BDB3761ABE35138 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-text_to_speech/Pods-text_to_speech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-text_to_speech/Pods-text_to_speech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-text_to_speech/Pods-text_to_speech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C439490C7B522BEF3AFBFDBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-text_to_speech-text_to_speechUITests/Pods-text_to_speech-text_to_speechUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-text_to_speech-text_to_speechUITests/Pods-text_to_speech-text_to_speechUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-text_to_speech-text_to_speechUITests/Pods-text_to_speech-text_to_speechUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4A17CF1A3E9717AB8BBEAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-text_to_speech-text_to_speechUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62E22C0813FB26FAC6E1540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-text_to_speechTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED4332DB26F2226D00F81375 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED4332E526F2226D00F81375 /* ContentView.swift in Sources */,
+				EDA9368326F7D6AF000EAA5F /* Persistence.swift in Sources */,
+				EDDB725926FA90C8001CD62C /* history2.xcdatamodeld in Sources */,
+				ED75D46726FF3EF000546460 /* Settings.swift in Sources */,
+				ED4332E526F2226D00F81375 /* Text.swift in Sources */,
+				ED75D46526FBC14C00546460 /* Favourite.swift in Sources */,
+				ED4F87AC26FA256B00F16B7E /* Text2.swift in Sources */,
+				EDA9365E26F62D16000EAA5F /* utils.swift in Sources */,
+				ED43330E26F4EA9100F81375 /* audio.swift in Sources */,
+				ED4F87AA26FA15E500F16B7E /* History.swift in Sources */,
+				EDA9365C26F62579000EAA5F /* Main.swift in Sources */,
 				ED4332E326F2226D00F81375 /* text_to_speechApp.swift in Sources */,
+				ED75D46926FF419B00546460 /* UserSettings.swift in Sources */,
+				EDA9365826F6227C000EAA5F /* ViewRouter.swift in Sources */,
+				ED75D46B26FF522B00546460 /* picker.swift in Sources */,
+				EDC96BE22703968C009F2451 /* apphud.swift in Sources */,
+				EDC96BE0270395E9009F2451 /* onboarding.swift in Sources */,
+				EDA9365A26F62503000EAA5F /* MotherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +632,13 @@
 		};
 		ED43330526F2226E00F81375 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DAB18D7FEC9E23691D6143 /* Pods-text_to_speech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = text_to_speech/text_to_speech.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_ASSET_PATHS = "\"text_to_speech/Preview Content\"";
 				DEVELOPMENT_TEAM = MB594CK88T;
 				ENABLE_PREVIEWS = YES;
@@ -427,19 +648,23 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "x.text-to-speech";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textspeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ED43330626F2226E00F81375 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434017926464BF345304C7E4 /* Pods-text_to_speech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = text_to_speech/text_to_speech.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_ASSET_PATHS = "\"text_to_speech/Preview Content\"";
 				DEVELOPMENT_TEAM = MB594CK88T;
 				ENABLE_PREVIEWS = YES;
@@ -449,15 +674,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "x.text-to-speech";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textspeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		ED43330826F2226E00F81375 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45A84882EFFF15308142F75 /* Pods-text_to_speechTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +707,7 @@
 		};
 		ED43330926F2226E00F81375 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D900199A69814FDBEFA0FA /* Pods-text_to_speechTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +730,7 @@
 		};
 		ED43330B26F2226E00F81375 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDC65EBDE38AAB85F104D8C /* Pods-text_to_speech-text_to_speechUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +751,7 @@
 		};
 		ED43330C26F2226E00F81375 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D45EE16E008E39171CC3BF /* Pods-text_to_speech-text_to_speechUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +810,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDDB725726FA90C8001CD62C /* history2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDDB725826FA90C8001CD62C /* history2.xcdatamodel */,
+			);
+			currentVersion = EDDB725826FA90C8001CD62C /* history2.xcdatamodel */;
+			path = history2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ED4332D726F2226D00F81375 /* Project object */;
 }

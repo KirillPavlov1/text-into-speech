@@ -1,0 +1,6 @@
+framework module Pods_text_to_speech_text_to_speechUITests {
+  umbrella header "Pods-text_to_speech-text_to_speechUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
